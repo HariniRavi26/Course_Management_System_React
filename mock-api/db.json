@@ -1,0 +1,230 @@
+{
+  "courses": [
+    {
+      "id": "c1",
+      "title": "Web Development Bootcamp",
+      "category": "Development",
+      "instructor": "Jane Smith",
+      "price": 49,
+      "description": "Learn HTML, CSS, JavaScript and build real projects from scratch.",
+      "modules": [
+        {
+          "id": "m1",
+          "title": "Introduction to HTML",
+          "notes": "HTML (HyperText Markup Language) is the standard language used to structure content on the web. A page is built from elements such as <h1> to <h6> for headings, <p> for paragraphs, <a> for links, <img> for images, and <ul>/<ol> for lists. Every HTML document starts with <!DOCTYPE html> and is organized into a <head> (page title, metadata, linked stylesheets) and a <body> (the visible content). Elements are usually written as opening and closing tag pairs, like <p>text</p>, and can be nested inside one another to build the page structure.",
+          "materials": [
+            "HTML-Cheatsheet.pdf"
+          ],
+          "pdfUrl": "/study-materials/HTML-Cheatsheet.pdf",
+          "videoTitle": "HTML Tutorial for Beginners",
+          "videoUrl": "https://www.youtube.com/results?search_query=HTML+tutorial+for+beginners"
+        },
+        {
+          "id": "m2",
+          "title": "CSS Fundamentals",
+          "notes": "CSS (Cascading Style Sheets) controls how HTML elements look on the page - colors, fonts, spacing, and layout. Every element is treated as a box made up of content, padding, border, and margin (the \"box model\"). Selectors target elements to style: an element selector like p applies to all paragraphs, a class selector like .card applies to any element with class=\"card\", and an id selector like #header applies to one specific element. Layout tools such as Flexbox (display: flex) and Grid (display: grid) make it easy to arrange elements in rows, columns, or grids.",
+          "materials": [
+            "CSS-Guide.pdf"
+          ],
+          "pdfUrl": "/study-materials/CSS-Guide.pdf",
+          "videoTitle": "CSS Tutorial for Beginners",
+          "videoUrl": "https://www.youtube.com/results?search_query=CSS+tutorial+for+beginners"
+        },
+        {
+          "id": "m3",
+          "title": "JavaScript Essentials",
+          "notes": "JavaScript adds interactivity to a web page - it can respond to clicks, update content, and store data. Variables are declared with let or const, and values can be strings, numbers, booleans, arrays, or objects. Functions group reusable logic: function greet(name) { return \"Hi \" + name; }. The DOM (Document Object Model) lets JavaScript find and change page elements, e.g. document.getElementById(\"title\").textContent = \"Hello\". Event listeners like button.addEventListener(\"click\", handler) let the page react to what the user does.",
+          "materials": [
+            "JS-Notes.pdf"
+          ],
+          "pdfUrl": "/study-materials/JS-Notes.pdf",
+          "videoTitle": "JavaScript Tutorial for Beginners",
+          "videoUrl": "https://www.youtube.com/results?search_query=JavaScript+tutorial+for+beginners"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "title": "Python for Data Science",
+      "category": "Data Science",
+      "instructor": "Mark Lee",
+      "price": 59,
+      "description": "Master Python, Pandas and NumPy for data analysis.",
+      "modules": [
+        {
+          "id": "m1",
+          "title": "Python Basics",
+          "notes": "Python is a beginner-friendly programming language widely used for data analysis. Variables don't need a declared type: age = 25, name = \"Sam\". Common data types are integers, floats, strings, lists ([1,2,3]), and dictionaries ({\"key\": \"value\"}). Loops repeat actions: for item in list: ... or while condition: .... Functions are defined with def: def add(a, b): return a + b. Indentation (spaces, not braces) is how Python knows what code belongs inside a loop, function, or if statement.",
+          "materials": [
+            "Python-Intro.pdf"
+          ],
+          "pdfUrl": "/study-materials/Python-Intro.pdf",
+          "videoTitle": "Python Tutorial for Beginners",
+          "videoUrl": "https://www.youtube.com/results?search_query=Python+tutorial+for+beginners"
+        },
+        {
+          "id": "m2",
+          "title": "Working with Pandas",
+          "notes": "Pandas is a Python library for working with tabular data. A DataFrame is its main structure - think of it like a spreadsheet with rows and columns. You load data with pd.read_csv(\"file.csv\"), inspect it with df.head() or df.info(), and select columns with df[\"column_name\"]. Common operations include filtering rows (df[df[\"age\"] > 18]), grouping data (df.groupby(\"category\").mean()), and handling missing values (df.dropna() or df.fillna(0)). Pandas is usually paired with NumPy for numerical operations underneath.",
+          "materials": [
+            "Pandas-Guide.pdf"
+          ],
+          "pdfUrl": "/study-materials/Pandas-Guide.pdf",
+          "videoTitle": "Pandas Tutorial for Beginners",
+          "videoUrl": "https://www.youtube.com/results?search_query=Pandas+Python+tutorial+for+beginners"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "UI/UX Design Fundamentals",
+      "category": "Design",
+      "instructor": "Amy Wong",
+      "price": 39,
+      "description": "Learn design principles, wireframing and prototyping.",
+      "modules": [
+        {
+          "id": "m1",
+          "title": "Design Principles",
+          "notes": "Good UI/UX design rests on a few core principles. Visual hierarchy uses size, color, and position to show users what matters most first. Contrast (light vs dark, big vs small) makes important elements stand out and improves readability. Consistency - reusing the same colors, spacing, and components throughout - helps users learn an interface faster. Whitespace (empty space around elements) isn't wasted space; it reduces clutter and helps users focus. Alignment keeps related elements visually connected in clean rows and columns.",
+          "materials": [
+            "Design-Basics.pdf"
+          ],
+          "pdfUrl": "/study-materials/Design-Basics.pdf",
+          "videoTitle": "UI UX Design Principles",
+          "videoUrl": "https://www.youtube.com/results?search_query=UI+UX+design+principles+tutorial"
+        },
+        {
+          "id": "m2",
+          "title": "Prototyping Tools",
+          "notes": "Prototyping tools like Figma let designers turn ideas into clickable mockups before any code is written. A Figma file is organized into Frames (individual screens), which contain layers of shapes, text, and images. Components let you create a reusable element (like a button) once and reuse it everywhere - updating the original updates every copy. Prototyping mode lets you link frames together (e.g. \"tap this button, go to that screen\") so stakeholders can click through the design like a real app before development starts.",
+          "materials": [
+            "Figma-Handbook.pdf"
+          ],
+          "pdfUrl": "/study-materials/Figma-Handbook.pdf",
+          "videoTitle": "Figma Prototyping Tutorial",
+          "videoUrl": "https://www.youtube.com/results?search_query=Figma+prototyping+tutorial+beginners"
+        }
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": "STU-1001",
+      "studentId": "STU-1001",
+      "name": "John Student",
+      "email": "student@lms.com",
+      "password": "student123",
+      "department": "Computer Science",
+      "dept": "Computer Science",
+      "phone": "",
+      "status": "active",
+      "createdAt": "2026-09-01T09:00:00.000Z"
+    },
+    {
+      "name": "Harini Ravi",
+      "email": "hariniravi2612@gmail.com",
+      "password": "hari26",
+      "phone": "",
+      "status": "active",
+      "createdAt": "2026-09-30T09:55:53.993Z",
+      "id": "STU-munxjtah-ch6us",
+      "studentId": "STUDENT-munxjtah-89qps",
+      "department": "Computer Science",
+      "dept": "Computer Science"
+    }
+  ],
+  "admins": [
+    {
+      "id": "ADM-2001",
+      "adminId": "ADM-2001",
+      "name": "Admin User",
+      "email": "admin@lms.com",
+      "password": "admin123",
+      "phone": "",
+      "status": "active",
+      "createdAt": "2026-09-01T09:00:00.000Z"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "ENR-1001",
+      "email": "student@lms.com",
+      "courseId": "c1",
+      "date": "2026-09-02T09:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "ENR-1002",
+      "email": "student@lms.com",
+      "courseId": "c2",
+      "date": "2026-09-03T09:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "ENR-munxk691-4qqss",
+      "email": "hariniravi2612@gmail.com",
+      "courseId": "c1",
+      "date": "2026-09-30T09:56:10.789Z",
+      "status": "active"
+    }
+  ],
+  "progress": [
+    {
+      "id": "PROG-1001",
+      "email": "student@lms.com",
+      "courseId": "c1",
+      "completedModules": [
+        "m1",
+        "m2"
+      ],
+      "lastUpdated": "2026-09-05T09:00:00.000Z"
+    },
+    {
+      "id": "PROG-1002",
+      "email": "student@lms.com",
+      "courseId": "c2",
+      "completedModules": [
+        "m1"
+      ],
+      "lastUpdated": "2026-09-05T09:00:00.000Z"
+    }
+  ],
+  "ratings": [],
+  "savedCourses": [],
+  "notifications": [
+    {
+      "id": "NOT-1001",
+      "email": "student@lms.com",
+      "title": "Welcome to the LMS Portal!",
+      "message": "Start exploring courses and begin learning today.",
+      "read": false,
+      "date": "2026-09-01T09:00:00.000Z"
+    },
+    {
+      "id": "NOT-1002",
+      "email": "student@lms.com",
+      "title": "Course Enrollment",
+      "message": "You are enrolled in Web Development Bootcamp.",
+      "read": false,
+      "date": "2026-09-02T09:00:00.000Z"
+    },
+    {
+      "id": "NOT-munxjthk-9u1wc",
+      "email": "hariniravi2612@gmail.com",
+      "title": "Welcome to the LMS Portal!",
+      "message": "Start exploring courses and begin learning today.",
+      "read": true,
+      "date": "2026-09-30T09:55:54.248Z"
+    },
+    {
+      "id": "NOT-munxk69z-njdh5",
+      "email": "hariniravi2612@gmail.com",
+      "title": "Enrollment Successful",
+      "message": "You have successfully enrolled in a new course.",
+      "read": false,
+      "date": "2026-09-30T09:56:10.823Z"
+    }
+  ],
+  "achievements": []
+}
